@@ -1,0 +1,67 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main{
+width: 100vw;
+height: 100vh;
+padding:100px 0 0 0 ;
+display: flex;
+justify-content: center;
+
+}
+.logo img{
+  margin-bottom: 10px;
+}
+.logo figcaption{
+  margin-bottom: 20px;
+}
+.inputs input{
+  margin-left: -50px;
+  padding-left: 10px;
+  width: 250px;
+  height: 28px;
+  background: url();
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.add{
+  position: relative;
+  left: -25px;
+}
+.showItem{
+  margin-left: -50px;
+  margin:20px 0;
+}
+.showItem h3{
+  margin:10px 10px 0px -40px;
+  display: inline-block;
+  width: 250px;
+}
+.showItem i{
+  position: relative;
+  left:-40px;
+}
+.clearAll{
+  width: 100px;
+  height: 30px;
+  margin: 12px 0;
+
+}
